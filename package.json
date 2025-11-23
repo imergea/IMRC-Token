@@ -1,0 +1,28 @@
+{
+  "name": "imrc-token",
+  "version": "1.0.0",
+  "description": "IMRC – 1 token = 1 day of IMERGEA strategic advisory + referral credit.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [
+    "ERC20",
+    "IMRC",
+    "IMERGEA",
+    "token",
+    "smart-contract"
+  ],
+  "author": "IMERGEA",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0",
+    "dotenv": "^16.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
