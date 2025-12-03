@@ -1,0 +1,25 @@
+{
+  "name": "IMERGEA Token List",
+  "logoURI": "https://imergea.com/assets/icons/coupon.webp",
+  "keywords": ["imergea", "coupon", "consulting", "m&a", "token"],
+  "timestamp": "2025-01-01T00:00:00Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24",
+      "name": "IMERGEA Consulting Coupon",
+      "symbol": "IMRC",
+      "decimals": 18,
+      "logoURI": "https://imergea.com/assets/icons/coupon.webp",
+      "extensions": {
+        "website": "https://imergea.com",
+        "description": "1 token = 1 day of IMERGEA strategic consulting (M&A, capital raise, valuation, export strategy, investor outreach)."
+      }
+    }
+  ]
+}
