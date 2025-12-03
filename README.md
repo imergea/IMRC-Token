@@ -1,39 +1,130 @@
-# IMRC – IMERGEA Consulting Coupon
+# IMRC – IMERGEA Consulting Coupon Token
 
-**Network:** Base Mainnet (chainId 8453)  
-**Contract address:** `0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24`  
-**Symbol:** IMRC  
-**Decimals:** 18  
-**Total supply:** 100 IMRC  
-**Website:** https://imergea.com  
+<div align="center">
 
-IMRC is a consulting coupon token issued by IMERGEA.  
-Each token represents **1 day of strategic advisory** with IMERGEA, which can include:
+![Base Network](https://img.shields.io/badge/Network-Base%20Mainnet-0052FF?style=for-the-badge&logo=ethereum)
+![Token Standard](https://img.shields.io/badge/Standard-ERC--20-3C3C3D?style=for-the-badge)
+![Supply](https://img.shields.io/badge/Supply-100%20IMRC-00D4AA?style=for-the-badge)
 
-- Capital raise support  
-- Buy-side & sell-side M&A advisory  
-- Export & international growth strategy  
-- Business valuation  
-- Investor document package (teaser, IM, financials…)  
-- Investor & buyer outreach via the IMERGEA portal  
+**Strategic advisory services tokenized on Base**
 
-Tokens are initially held by IMERGEA and can be transferred to clients, partners or referrers as a form of prepaid consulting credit.
+[Website](https://imergea.com) • [Token List](https://imergea.com/tokenlist.json) • [Contact](#contact)
 
-## Contract features
+</div>
 
-- ERC20 based on OpenZeppelin  
-- Fixed total supply (no further minting)  
-- No transfer taxes, fees or custom logic  
-- Owner (IMERGEA) receives the full initial supply  
+---
 
-## How to add IMRC in a wallet
+## 📋 Token Information
 
-1. Select **Base** network in your wallet.  
-2. Add a custom token with:
-   - Contract: `0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24`
-   - Symbol: `IMRC`
-   - Decimals: `18`
+| Property | Value |
+|----------|-------|
+| **Network** | Base Mainnet (Chain ID: 8453) |
+| **Contract Address** | `0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24` |
+| **Symbol** | IMRC |
+| **Decimals** | 18 |
+| **Total Supply** | 100 IMRC (fixed) |
 
-## Token list
+---
 
-The IMRC token is also described in an [IMERGEA token list](https://imergea.com/tokenlist.json) compatible with the Uniswap Token List standard.
+## 🎯 What is IMRC?
+
+IMRC is a consulting coupon token issued by **IMERGEA**. Each token represents **one full day** of strategic advisory services, enabling seamless and transparent access to high-level consulting expertise.
+
+---
+
+## 💼 What 1 IMRC Includes
+
+Each IMRC token can be redeemed for one day of consulting services, including:
+
+- 🎯 **Capital raise support**
+- 🤝 **Buy-side & sell-side M&A advisory**
+- 🌍 **International growth & export strategy**
+- 📊 **Business valuation and benchmarking**
+- 📄 **Investor documentation** (teaser, IM, financial pack)
+- 🔗 **Investor & buyer outreach** via the IMERGEA portal
+
+> **Note:** Tokens are issued and held by IMERGEA and may be transferred to clients, partners, or referrers as prepaid consulting credit.
+
+---
+
+## ⚖️ Terms of Use
+
+### Validity Requirements
+
+An IMRC is **valid for redemption** only if its blockchain value at the time of acquisition is **equal to or greater than USD $300**.
+
+### IMERGEA Rights
+
+IMERGEA reserves the right to:
+
+- ✅ Verify the acquisition value on-chain
+- ❌ Deny redemption if the value condition is not met
+- 🚫 Refuse IMRC acquired below the threshold or through unofficial channels
+
+---
+
+## 🔧 Contract Features
+
+- ✨ Built with **OpenZeppelin** ERC-20 standard
+- 🔒 **Fixed total supply** (no minting capability)
+- 💸 **No transfer fees** or custom logic
+- 🏦 All initial supply held by IMERGEA
+
+---
+
+## 💾 How to Add IMRC to Your Wallet
+
+### Step-by-Step Guide
+
+1. **Select the Base network** in your wallet
+2. **Add a custom token** using the following details:
+```
+Contract Address: 0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24
+Symbol: IMRC
+Decimals: 18
+```
+
+### Popular Wallets
+- MetaMask
+- Coinbase Wallet
+- Rainbow Wallet
+- Trust Wallet
+
+---
+
+## 📜 Token List
+
+IMRC is included in the **IMERGEA Token List**, compatible with the Uniswap Token List standard:
+
+🔗 **[https://imergea.com/tokenlist.json](https://imergea.com/tokenlist.json)**
+
+---
+
+## ⚠️ Disclaimer
+
+> **IMRC is a utility consulting coupon, not a security or investment product.**
+
+IMRC does **NOT** grant:
+- Equity or ownership in IMERGEA
+- Voting rights
+- Profit participation or dividends
+
+IMERGEA reserves the right to update these terms as required.
+
+---
+
+## 📞 Contact
+
+**IMERGEA – Strategic Advisory & M&A**
+
+- 📧 Email: [info@imergea.com](mailto:info@imergea.com)
+- 🌐 Website: [https://imergea.com](https://imergea.com)
+- 🔗 Token Contract: [View on BaseScan](https://basescan.org/address/0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24)
+
+---
+
+<div align="center">
+
+**Built on Base** • **Powered by IMERGEA**
+
+</div>
