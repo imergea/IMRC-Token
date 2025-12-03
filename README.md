@@ -1,55 +1,39 @@
-# IMRC – IMERGEA Credit Token
+# IMRC – IMERGEA Consulting Coupon
 
-**Type**: ERC-20  
-**Name**: IMERGEA Credit  
-**Symbol**: IMRC  
-**Decimals**: 18  
-**Total Supply**: 100 IMRC
+**Network:** Base Mainnet (chainId 8453)  
+**Contract address:** `0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24`  
+**Symbol:** IMRC  
+**Decimals:** 18  
+**Total supply:** 100 IMRC  
+**Website:** https://imergea.com  
 
----
+IMRC is a consulting coupon token issued by IMERGEA.  
+Each token represents **1 day of strategic advisory** with IMERGEA, which can include:
 
-## 🧩 Concept
+- Capital raise support  
+- Buy-side & sell-side M&A advisory  
+- Export & international growth strategy  
+- Business valuation  
+- Investor document package (teaser, IM, financials…)  
+- Investor & buyer outreach via the IMERGEA portal  
 
-IMRC est un **token utilitaire premium** émis par IMERGEA.
+Tokens are initially held by IMERGEA and can be transferred to clients, partners or referrers as a form of prepaid consulting credit.
 
-Chaque IMRC représente **une journée complète de conseil stratégique**, incluant par exemple :
+## Contract features
 
-- Structuration de levée de fonds (equity & debt)  
-- Conseil en M&A (buy-side / sell-side)  
-- Analyse stratégique et financière  
-- Support Teaser Deck & Information Memorandum  
+- ERC20 based on OpenZeppelin  
+- Fixed total supply (no further minting)  
+- No transfer taxes, fees or custom logic  
+- Owner (IMERGEA) receives the full initial supply  
 
-> **1 IMRC = 1 day of IMERGEA strategic advisory.**
+## How to add IMRC in a wallet
 
-En plus de la journée de conseil, chaque détenteur d’IMRC bénéficie d’un **referral code** dédié pour l’IMERGEA Portal, géré off-chain (réductions, avantages, upgrades, etc.).
+1. Select **Base** network in your wallet.  
+2. Add a custom token with:
+   - Contract: `0xD8A901A916c51725fAB50cD0DDB6437b3A6B1B24`
+   - Symbol: `IMRC`
+   - Decimals: `18`
 
----
+## Token list
 
-## 🎯 Utility & Usage
-
-- Le détenteur d’IMRC peut transférer 1 IMRC au wallet IMERGEA pour régler une journée de consulting.  
-- Une fois la journée réalisée, le token reste dans le wallet d’IMERGEA et peut être revendu ou réattribué à un autre client ou partenaire.  
-- Les **referral codes** liés à IMRC sont gérés hors chaîne (dans les systèmes IMERGEA).
-
-IMRC fonctionne comme un **crédit prépayé tokenisé**, transférable on-chain.
-
----
-
-## 🔒 Tokenomics
-
-- **Total supply fixe** : 100 IMRC, mintés une seule fois au déploiement.  
-- Aucun mint supplémentaire n’est prévu.  
-- 18 décimales (standard ERC-20) pour une compatibilité maximale avec les wallets et DEX.
-
----
-
-## 🧱 Smart Contract
-
-Contrat principal : `contracts/IMRC.sol`
-
-```solidity
-contract IMRC is ERC20 {
-    constructor() ERC20("IMERGEA Credit", "IMRC") {
-        _mint(msg.sender, 100 * 10 ** decimals());
-    }
-}
+The IMRC token is also described in an [IMERGEA token list](https://imergea.com/tokenlist.json) compatible with the Uniswap Token List standard.
