@@ -15,7 +15,7 @@
       "name": "IMERGEA Consulting Coupon",
       "symbol": "IMRC",
       "decimals": 18,
-      "logoURI": "https://imergea.com/assets/icons/coupon.webp",
+      "logoURI": "https://raw.githubusercontent.com/imergea/IMRC-Token/main/assets/logo.png",
       "extensions": {
         "website": "https://imergea.com",
         "description": "1 token = 1 day of IMERGEA strategic consulting (M&A, capital raise, valuation, export strategy, investor outreach)."
